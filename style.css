@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rubik+Broken+Fax&family=Rubik+Doodle+Shadow&display=swap');
+
+body{
+    background-size: cover;
+    text-align: center;
+}
+.heading
+{
+  font-size: 35px;
+  width: 100%;
+  margin: 0px;
+  font-family: rubik broken fax;
+  background-color: rgb(0, 0, 0);
+  border-color: white;
+  box-shadow:1px 5px 2px darkgrey;
+}
+.heading:hover{
+    background-color: white;
+    color:black;
+    transition: .5s;
+    transform: scale(1.0);
+}
+.Note
+{
+  font-size: 15px;
+  color: lightgrey;
+  font-family: josefin sans;
+}
+.Note:hover{
+    color: black;
+    transition: .5s;
+    transform: scale(1.1);
+}
+body
+{
+  background-size: cover;	
+}
+#song_name
+  {
+  	font-size: 23px;
+  	margin: 15px;
+      font-family: rubik doodle shadow;
+      background: linear-gradient(black, black, #b11c30 );
+      border-color: rgb(29, 29, 29);
+      border-radius: 2px;
+      color: whitesmoke;
+      box-shadow:2px 3px 4px white;
+  }
+
+  #song_name:hover{
+    transition: .5s;
+    transform: scale(1.1);
+  }
+  canvas{
+    background-color:white;
+    border:5px solid white;
+    border-radius:15px;
+    box-shadow:5px 5px 5px white;
+  }
+ 
